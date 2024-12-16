@@ -11,8 +11,10 @@ This project explores patterns in drug consumption using the **Drug Consumption 
   - **Drug Usage**: Consumption frequencies for 18 substances (e.g., alcohol, cannabis, cocaine) categorized into 7 levels.
 
 ## Key Questions
-1. **Predictive Modeling**: Can we predict cannabis usage based on demographic and psychological metrics?  
-2. **Clustering Analysis**: Can we identify groups of individuals based on personality traits and drug consumption patterns?
+1. **What are the significant correlations between drug usage and other variables such as age, gender, and education?**
+2. **Can we build predictive models to estimate the likelihood of drug usage based on individual characteristics?**
+3. **How do various demographic factors like gender, age, and socio-economic status influence the consumption patterns of different drugs?**
+4. **What trends can be observed across different age groups, genders, and educational backgrounds in terms of drug usage?**
 
 ## Methods
 - **Data Preprocessing**:
@@ -20,8 +22,8 @@ This project explores patterns in drug consumption using the **Drug Consumption 
   - Normalized continuous features for comparability.
   - Created binary labels for specific classification tasks.
 - **Machine Learning**:
-  - Predictive Modeling: Implemented a K-Nearest Neighbors (KNN) classifier for cannabis usage prediction.
-  - Clustering: Applied K-Means clustering with the Elbow method to determine optimal clusters.
+  - **Predictive Modeling**: Implemented a K-Nearest Neighbors (KNN) classifier for cannabis usage prediction.
+  - **Clustering**: Applied K-Means clustering with the Elbow method to determine optimal clusters.
 
 ## Results
 1. **Classification**: Achieved ~80% accuracy in predicting cannabis usage with KNN.
@@ -37,21 +39,3 @@ This project explores patterns in drug consumption using the **Drug Consumption 
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/drug-usage-predictions.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the analysis scripts:
-   - For predictive modeling: `python predict_cannabis.py`
-   - For clustering: `python clustering_analysis.py`
-
-## License
-This project is licensed under the MIT License.
-
-## Acknowledgments
-- Dataset provided by the UCI Machine Learning Repository.
-- Thanks to our discussion section for support and feedback.
-```
-
-This `README.md` is concise, covers the essentials, and provides users with clear instructions to understand and replicate your work. Let me know if you’d like to include anything else!
