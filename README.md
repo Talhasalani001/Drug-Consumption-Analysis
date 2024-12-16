@@ -39,3 +39,22 @@ This project explores patterns in drug consumption using the **Drug Consumption 
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/drug-usage-predictions.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the analysis scripts:
+   - For predictive modeling: `python predict_cannabis.py`
+   - For clustering: `python clustering_analysis.py`
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- Dataset provided by the UCI Machine Learning Repository.
+- Thanks to our discussion section for support and feedback.
+```
+
+This `README.md` is concise, covers the essentials, and provides users with clear instructions to understand and replicate your work. Let me know if you’d like to include anything else!
+
